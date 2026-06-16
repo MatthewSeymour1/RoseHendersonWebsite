@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className="flex h-16 items-center justify-between px-8">
                 <div className="flex items-center gap-3">
                     <img
-                        src="https://picsum.photos/200"
+                        src="images/roseHenderson.jpg"
                         alt=""
                         className="w-10 h-10 rounded-full object-cover"
                     />

@@ -21,11 +21,19 @@ export default function Navbar() {
     );
 
     return (
-        <header className="border-b bg-background w-full">
+        <header className="border-b bg-background w-full sticky top-0 z-50">
             <div className="flex h-16 items-center justify-between px-8">
-                <span className="text-lg font-semibold tracking-tight">
-                    Rose Henderson Productions
-                </span>
+                <div className="flex items-center gap-3">
+                    <img
+                        src="https://picsum.photos/200"
+                        alt=""
+                        className="w-10 h-10 rounded-full object-cover"
+                    />
+                    <span className="text-lg font-semibold tracking-tight">
+                        Rose Henderson Productions
+                    </span>
+                </div>
+
 
                 {/* Desktop links */}
                 <nav className="hidden md:flex items-center gap-6">

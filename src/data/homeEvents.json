@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Name of Play",
+        "image": "https://picsum.photos/200",
+        "date": "July 12, 2026",
+        "description": "A brief description of the play.",
+        "ticketsUrl": "https://example.com/tickets"
+    },
+    {
+        "id": 2,
+        "title": "Name of Play",
+        "image": "https://picsum.photos/200",
+        "date": "July 12, 2026",
+        "description": "A brief description of the play."
+    }
+]

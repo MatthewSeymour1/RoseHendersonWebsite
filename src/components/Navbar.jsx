@@ -25,9 +25,9 @@ export default function Navbar() {
             <div className="flex h-16 items-center justify-between px-8">
                 <div className="flex items-center gap-3">
                     <img
-                        src="images/roseHenderson.jpg"
+                        src="images/roseHendersonHeadshot.jpg"
                         alt=""
-                        className="w-10 h-10 rounded-full object-cover"
+                        className="w-11 h-11 rounded-full object-cover object-top"
                     />
                     <span className="text-lg font-semibold tracking-tight">
                         Rose Henderson Productions

@@ -1,4 +1,4 @@
-import events from "@/data/homeEvents.json";
+import events from "@/data/home.json";
 import HomeEventCard from "@/components/HomeEventCard";
 
 export default function Home() {

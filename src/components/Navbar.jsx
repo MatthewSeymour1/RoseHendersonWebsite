@@ -16,7 +16,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     const linkClass = (path) => cn(
-        "text-lg font-medium transition-colors hover:text-foreground",
+        "text-xl font-medium transition-colors hover:text-foreground",
         location.pathname === path ? "text-foreground" : "text-muted-foreground"
     );
 
@@ -29,7 +29,7 @@ export default function Navbar() {
                         alt=""
                         className="w-11 h-11 rounded-full object-cover object-top"
                     />
-                    <span className="text-lg font-semibold tracking-tight">
+                    <span className="text-2xl font-semibold tracking-tight pb-1.5">
                         Rose Henderson Productions
                     </span>
                 </Link>

@@ -8,7 +8,7 @@ export default function HomeEventCard({ event }) {
                     <img
                         src={event.image}
                         alt={event.alt}
-                        className="w-80 object-cover rounded-md shrink-0 self-start"
+                        className="w-80 object-cover rounded-md shrink-0 self-center md:self-start"
                     />
                     <div className="flex flex-col gap-2">
                         <p className="font-bold text-3xl">{event.title}</p>

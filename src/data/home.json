@@ -1,17 +1,10 @@
 [
     {
         "id": 1,
-        "title": "Name of Play",
-        "image": "https://picsum.photos/200",
-        "date": "July 12, 2026",
-        "description": "A brief description of the play.",
+        "title": "Bed Among the Lentils",
+        "image": "images/bedAmongTheLentilsPoster.jpg",
+        "writer": "Alan Bennett",
+        "description": "Alan Bennett is a renowned playwright and Oscar nominee. This BAFTA winning play originated from his series of plays 'Talking Heads'. It about The Vicar, his wife and a Grocer.  Rose plays the Vicar’s wife and we see how she was once on the carousel of life, married this good looking, charismatic man, fell off the carousel and tries to climb back on. It is keenly observed, funny and very moving. \n\nPerformances in the studio of the Lexicon Library in DunLaoghaire Friday 26 June and Thursday 2 July at 7.30pm. 55 mins. \n\nComing soon to: \n\nTinahely Arts Centre 17 and 18 July at 7.30pm including an afternoon performance at 2pm on the 18th of July. \n\nBirr Vintage Festival 5 August at 2pm and 7.30pm",
         "ticketsUrl": "https://takeyourseats.ticketsolve.com/ticketbooth/shows/873687758"
-    },
-    {
-        "id": 2,
-        "title": "Name of Play",
-        "image": "https://picsum.photos/200",
-        "date": "July 12, 2026",
-        "description": "A brief description of the play."
     }
 ]

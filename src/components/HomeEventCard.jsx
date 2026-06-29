@@ -12,10 +12,18 @@ export default function HomeEventCard({ event }) {
                     />
                     <div className="flex flex-col gap-2">
                         <p className="font-bold text-3xl">{event.title}</p>
-                        {event.date && (
-                            <p className="text-muted-foreground">{event.date}</p>
+                        {event.writer && (
+                            <p className="text-muted-foreground">by {event.writer}</p>
                         )}
-                        <p className="text-muted-foreground text-lg leading-relaxed whitespace-pre-line">{event.description}</p>
+                        {event.description && (
+                            <p className="text-muted-foreground text-lg leading-relaxed whitespace-pre-line">{event.description}</p>
+                        )}
+                        {event.email && (
+                            <p className="text-muted-foreground text-lg leading-relaxed whitespace-pre-line">Email: <br /><span className="font-bold text-foreground">{event.email}</span></p>
+                        )}
+                        {event.agent && (
+                            <p className="text-muted-foreground text-lg leading-relaxed whitespace-pre-line">Represented by: <br /><span className="font-bold text-foreground">{event.agent}<br /> {event.agentEmail} <br /> {event.agentPhoneNumber}</span></p>
+                        )}
                         {event.ticketsUrl && (
                             <a
                                 href={event.ticketsUrl}

@@ -1,9 +1,12 @@
 [
     {
         "id": 1,
-        "description": "rosehendersonproductions@gmail.com",
-        "image": "images/roseHendersonHeadshot.jpg",
-        "instagram": "",
-        "facebook": ""
+        "email": "rosehendersonproductions@gmail.com",
+        "image": "images/roseHendersonHeadshot2.jpg",
+        "instagram": "https://www.instagram.com/rose_henderson_productions",
+        "facebook": "https://www.facebook.com/share/193GiARDu6/?mibextid=wwXIfr",
+        "agent": "Linda French & APM Associates",
+        "agentEmail": "apm@apmassociates.net",
+        "agentPhoneNumber": "+44 (0) 208 953 7377"
     }
 ]

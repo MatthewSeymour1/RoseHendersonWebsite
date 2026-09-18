@@ -22,16 +22,11 @@ export default function Navbar() {
 
     return (
         <header className="border-b bg-background w-full sticky top-0 z-50">
-            <div className="flex h-24 items-center justify-between px-8">
-                <Link to="/" className="flex items-center gap-3">
-                    <img
-                        src="images/roseHendersonImg.jpg"
-                        alt=""
-                        className="w-11 h-11 rounded-full object-cover object-top "
-                    />
-                    <span className="text-2xl font-semibold tracking-tight pb-1.5">
+            <div className="flex h-24 items-center justify-between px-15">
+                <Link to="/" className="pt-2">
+                    <h2 className="text-2xl tracking-tight fontSerif">
                         Rose Henderson Productions
-                    </span>
+                    </h2>
                 </Link>
 
                 {/* Desktop links */}
@@ -51,7 +46,7 @@ export default function Navbar() {
                         </SheetTrigger>
                         <SheetContent side="right" showCloseButton={false}>
                             <SheetHeader className="flex-row items-center justify-between px-4 h-24 border-b">
-                                <SheetTitle>Rose Henderson Productions</SheetTitle>
+                                <SheetTitle className="text-[22px] tracking-tight fontSerif pt-2">Rose Henderson Productions</SheetTitle>
                                 <SheetClose asChild>
                                     <div className="cursor-pointer p-2 hover:bg-secondary rounded-md">
                                         <XIcon className="size-6" />

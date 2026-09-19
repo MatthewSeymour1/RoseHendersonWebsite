@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import Home from '@/pages/Home';
 import AboutUs from '@/pages/AboutUs';
 import ContactUs from '@/pages/ContactUs';
+import ScrollToTop from '@/components/ScrollToTop';
 
 export default function App() {
 
@@ -11,6 +12,7 @@ export default function App() {
             <Router>
                 <div className="flex min-h-screen flex-col">
                     <Navbar />
+                    <ScrollToTop />
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='/about-us' element={<AboutUs />} />
